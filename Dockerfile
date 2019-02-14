@@ -11,6 +11,7 @@ ARG GIT_URI="https://github.com/orocommerce/orocommerce-application.git"
 ARG GIT_REF="tags/3.1.2"
 
 RUN install-application.sh
+RUN composer global require hirak/prestissimo
 
 VOLUME ["/var/www"]
 
