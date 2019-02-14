@@ -1,4 +1,4 @@
-FROM djocker/orobase
+FROM phpprakash/orobase
 USER www-data
 
 # HTTPS or SSH
