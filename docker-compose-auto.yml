@@ -5,7 +5,7 @@ services:
     image: djocker/orodata
   source_code:
     container_name: orocommerce_source
-    image: djocker/orocommerce
+    image: phpprakash/orocommerce
   db:
     container_name: orocommerce_db
     image: mysql:5.7
